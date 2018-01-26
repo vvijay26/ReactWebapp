@@ -13,7 +13,7 @@
   font-size: 25px;
   margin: 5px;
 }
-.Clock-days, .Clock-hours, .Clock-mins, .Clock-secs {
+.Clock-days, .Clock-hours, .Clock-mins, .Clock-secs , .Stopwatch{
   display: inline;
   margin: 10px;
 }

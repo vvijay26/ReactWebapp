@@ -15,12 +15,11 @@ class Clock extends Component {
 
 	getTimeUntil(deadline){
 		const time = Date.parse(deadline) - Date.parse(new Date());
-		console.log("Times ", time);
 		const secs = Math.floor((time/1000)%60);
 		const mins = Math.floor((time/1000/60)%60);
 		const hours = Math.floor((time/(1000*60*60))%24);
 		const days = Math.floor((time/(1000*60*60*24)));
-		this.setState({days});
+		this.setState({days:days});
 		this.setState({hours});
 		this.setState({mins});
 		this.setState({secs});
