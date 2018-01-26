@@ -6,14 +6,14 @@ class Stopwatch extends Component {
 	constructor(props) {
 		super(props);
 		this.state={
-			counter: 10
+			counter: 0
 		}
 	}
 
 	render(){
 		return(
 			<div>
-			  	<div className="Stopwatch">{this.state.counter + 1} is the value of counter</div>
+			  	<div className="Stopwatch">{this.state.counter} is the value of counter</div>
 			</div>
 			)
 	}
